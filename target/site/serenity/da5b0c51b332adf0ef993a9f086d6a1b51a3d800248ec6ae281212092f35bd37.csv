@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test","Provide a 404 status code when incorrect HTTP method is used to access resource","FAILURE","2023-01-08T17:12:23.025Z[Europe/London]","0.0","15.68"

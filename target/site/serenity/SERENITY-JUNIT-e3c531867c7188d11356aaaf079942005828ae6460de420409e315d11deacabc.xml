@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="Testing different request on the user information" skipped="0" tests="3" time="15.2" timestamp="2023-01-08T20:54:46.036Z[Europe/London]"><testcase name="Check if the user information can be accessed by users"/><testcase name="Create a new user &amp; verify if the user is added"><failure message="1 expectation failed.&#10;Expected status code &lt;201&gt; but was &lt;422&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.gorest.cucumber.steps.UserStepdefs.iVerifyThatTheUserWithIsCreated(UserStepdefs.java:51)&#13;
+✽.Then I verify that the user with "abc" is created(src/test/java/resources/feature/user.feature:9)&#13;
+</system-err></testcase></testsuite>
